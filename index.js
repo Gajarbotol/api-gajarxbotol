@@ -6,7 +6,7 @@ const fs = require('fs');
 app.use(express.json());
 
 // Configuration 
-let MAX_MESSAGES = 100;
+let MAX_MESSAGES = 50;
 const AUTH_TOKEN = 'YOUR_ACTUAL_AUTH_TOKEN'; // Replace with your real token
 const SMS_API_URL = 'http://202.51.182.198:8181/nbp/sms/code';
 
